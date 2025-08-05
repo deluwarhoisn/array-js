@@ -1,3 +1,6 @@
+//ascending
+//descending
+
 const numbers =[6,5,8,9,3,4];
 // console.log(numbers);
 numbers.sort();
