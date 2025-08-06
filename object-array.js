@@ -5,4 +5,14 @@ const employees = [
     { name: 'atik', designation: 'Devoloper', salary:29000 },
     { name:'abdulrahim',designation:'Digital markating', salary:21000 },
 ]
-console.log(employees[2].designation);
+// console.log(employees[1]);
+// console.log(employees[2].designation)
+
+// for(const employee of employees){
+//     console.log(employee.salary ,employee.designation);
+// }
+for (const emp of employees){
+    const person =emp;
+    const personinfo = person.name + ':' + person.salary;
+    console.log(personinfo)
+}
