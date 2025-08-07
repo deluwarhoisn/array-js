@@ -5,6 +5,7 @@ const employees = [
     { name: 'atik', designation: 'Devoloper', salary:29000 },
     { name:'abdulrahim',designation:'Digital markating', salary:21000 },
 ]
+employees[0].name = 'babu'
 // console.log(employees[1]);
 // console.log(employees[2].designation)
 
